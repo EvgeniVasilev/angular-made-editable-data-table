@@ -18,7 +18,7 @@ function mainCtrl($scope, $http, $timeout) {
         var born = item.born;
         var phone = item.phone;
         if (item) {
-            $scope.changedRecord = "The record  will be changet to:" + " Name: " + name + " " + family + " Year of birth:  " + born + " Telephone Number: " + phone;
+            $scope.changedRecord = "The record  will be changed to:" + " Name: " + name + " " + family + " Year of birth:  " + born + " Telephone Number: " + phone;
             this.item.name = name;
             this.item.family = family;
             this.item.phone = phone;
